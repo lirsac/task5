@@ -1,0 +1,144 @@
+.home{
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: whitesmoke;
+font-size: 10rem !important;
+}
+
+section{
+    display: flex !important;
+}
+
+.checks{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.barra{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 40%;
+    height: 100%;
+}
+
+.seccont{
+    display: flex;
+    margin-top: 1rem;
+    height: 10rem;
+}
+
+.separador{
+    height: 20px;
+}
+
+.fotos{
+    width: 96%;
+    display: flex;
+}
+
+#cartas{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#cartasp{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#cartasu{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434368, #47427c, #352e75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+label{
+    color: whitesmoke;
+}
+
+footer{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: whitesmoke;
+align-content: flex-end;
+
+}
+
+
+footer img{
+    width: 1rem;
+    height: 90%;
+   
+}
+
+footer p{
+    margin-left: auto;
+}
+
+.formu{
+    width: 100% !important;
+    margin-top: 50px !important;
+    padding: 25px !important;
+}
+
+.row{
+    margin-top: 35 !important;
+}
+
+.table{
+    width: 85% !important;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100% !important;
+}
+
+@media (min-width: 768px) { 
+    #fotcont{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+    }
+    a{
+        font-size: 2em !important;
+    }
+    th, td{
+        font-size: 1.5rem !important;
+    }
+ }
+
+ @media (min-width: 1023px){
+    .formularios{
+        height: 10rem !important;
+    }
+    th, td{
+        font-size: 2.3rem !important;
+    }
+ }
